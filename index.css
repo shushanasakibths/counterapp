@@ -29,7 +29,7 @@ button {
     border-radius: 5px;
 }
 
-#increment-btn {
+#increment-btn { /* This is an id that indicates the specific button */
     background: darkred;
 }
 
