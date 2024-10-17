@@ -1,9 +1,21 @@
 body {
-    background-image: url("bths.jpg");
+    background-image: url("https://cdn.glitch.global/49642c09-378b-45ac-9c54-43c845288389/bths.jpg?v=1729125714382");
     background-size: cover;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    font-family: 'Roboto', sans-serif; /* Changed the font for a modern, professional look */
+    font-weight: 500; /* Increased the font weight for better visibility */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Constrain the width */
+    width: 90%; /* Make it responsive */
+    margin: auto;
 }
 
 h1 {
@@ -29,10 +41,15 @@ button {
     border-radius: 5px;
 }
 
+button:hover {
+    opacity: 0.9; /* Slight effect when hovering */
+}
+
 #increment-btn { /* This is an id that indicates the specific button */
-    background: darkred;
+    background: #4CAF50; /* Changed to green */
 }
 
 #save-btn {
-    background: darkgreen
+    background: #007BFF; /*Changed to blue */
 }
+
